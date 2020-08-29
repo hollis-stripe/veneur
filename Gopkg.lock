@@ -136,6 +136,30 @@
 
 [[projects]]
   branch = "master"
+  digest = "1:b29ac3fe6b4601f89b589337c584ab7204a5c72932465e5f4a16772b5560b4a7"
+  name = "github.com/facebookgo/clock"
+  packages = ["."]
+  pruneopts = "NUT"
+  revision = "600d898af40aa09a7a93ecb9265d87b0504b6f03"
+
+[[projects]]
+  branch = "master"
+  digest = "1:2d7ffd1545caa3eb15e6b4058880f9913dbfef79aac0a1c3c5491f5f85d5341b"
+  name = "github.com/facebookgo/limitgroup"
+  packages = ["."]
+  pruneopts = "NUT"
+  revision = "6abd8d71ec01451d7f1929eacaa263bbe2935d05"
+
+[[projects]]
+  branch = "master"
+  digest = "1:762c38cd6b7137f9a5c38a0301d4271686d23c076b45e7d45564381f104dac7b"
+  name = "github.com/facebookgo/muster"
+  packages = ["."]
+  pruneopts = "NUT"
+  revision = "fd3d7953fd52354a74b9f6b3d70d0c9650c4ec2a"
+
+[[projects]]
+  branch = "master"
   digest = "1:d0bf01f4719fd005c2c19f805f539c52c3c50ce44a9639ef4b53b93240574893"
   name = "github.com/getsentry/raven-go"
   packages = ["."]
@@ -274,6 +298,17 @@
   version = "v0.8.1"
 
 [[projects]]
+  digest = "1:92044a1939c656a29c26985ec44e0e4549e04f70e26d882190e8d68ee1673cd6"
+  name = "github.com/honeycombio/libhoney-go"
+  packages = [
+    ".",
+    "transmission",
+  ]
+  pruneopts = "NUT"
+  revision = "3a8e6272e2c667e79fc4720fda4b94a3c43ef65e"
+  version = "v1.12.3"
+
+[[projects]]
   digest = "1:7c818eb119c69fc685573449e8f799596ba81827074b006ff0cb71052424f254"
   name = "github.com/jmespath/go-jmespath"
   packages = ["."]
@@ -304,6 +339,20 @@
   pruneopts = "NUT"
   revision = "f611eb38b3875cc3bd991ca91c51d06446afa14c"
   version = "v1.3.0"
+
+[[projects]]
+  digest = "1:f213345f83c9ccbd8989f82dad1fc52b7afe6592a4a47f86d19d18429cca850d"
+  name = "github.com/klauspost/compress"
+  packages = [
+    "fse",
+    "huff0",
+    "snappy",
+    "zstd",
+    "zstd/internal/xxhash",
+  ]
+  pruneopts = "NUT"
+  revision = "e0319150c61f7f25672c963b38547246a11a7f08"
+  version = "v1.10.11"
 
 [[projects]]
   branch = "master"
@@ -563,6 +612,29 @@
   revision = "6de226b0d5f040ed85b88c82c381709b98277f3d"
 
 [[projects]]
+  digest = "1:e3b1a9a30daf6e9088bb2aeda3cc5806b7c361c062b10079d7ed4246e85de144"
+  name = "github.com/vmihailenco/msgpack"
+  packages = [
+    ".",
+    "codes",
+  ]
+  pruneopts = "NUT"
+  revision = "cd92a145e6d2ce09e792f838dc0b669b680aea29"
+  version = "v4.1.1"
+
+[[projects]]
+  digest = "1:33664cc0ef6c6539d84f299593b451a43f4ae62d5cf08b998de35f3537069903"
+  name = "github.com/vmihailenco/tagparser"
+  packages = [
+    ".",
+    "internal",
+    "internal/parser",
+  ]
+  pruneopts = "NUT"
+  revision = "e4b6c8cf4f3d7bb572551d5a531a9f2068b2fd6e"
+  version = "v0.1.1"
+
+[[projects]]
   digest = "1:17a72c8447cd243d7dc0887c118fd46c540a3e02ffc3650460937a6819c5ccd3"
   name = "github.com/zenazn/goji"
   packages = [
@@ -641,6 +713,26 @@
   revision = "836efe42bb4aa16aaa17b9c155d8813d336ed720"
 
 [[projects]]
+  digest = "1:ae6bcb1cafc0275202ba027d5d3eebc82475ee8dc32405961865cf364f36d534"
+  name = "google.golang.org/appengine"
+  packages = [
+    ".",
+    "datastore",
+    "datastore/internal/cloudkey",
+    "datastore/internal/cloudpb",
+    "internal",
+    "internal/app_identity",
+    "internal/base",
+    "internal/datastore",
+    "internal/log",
+    "internal/modules",
+    "internal/remote_api",
+  ]
+  pruneopts = "NUT"
+  revision = "553959209a20f3be281c16dd5be5c740a893978f"
+  version = "v1.6.6"
+
+[[projects]]
   branch = "master"
   digest = "1:93180612a69db36a06d801302b867d53a50a8a5f0943b34db66adc0574ea57df"
   name = "google.golang.org/genproto"
@@ -687,6 +779,14 @@
   pruneopts = "NUT"
   revision = "df014850f6dee74ba2fc94874043a9f3f75fbfd8"
   version = "v1.17.0"
+
+[[projects]]
+  digest = "1:d6613cccd218e927314d7f6a7a6e8169473b07db7e07810341cacd3bdca920ba"
+  name = "gopkg.in/alexcesaro/statsd.v2"
+  packages = ["."]
+  pruneopts = "NUT"
+  revision = "7fea3f0d2fab1ad973e641e51dba45443a311a90"
+  version = "v2.0.0"
 
 [[projects]]
   digest = "1:ef72505cf098abdd34efeea032103377bec06abb61d8a06f002d5d296a4b1185"
@@ -879,6 +979,7 @@
     "github.com/golang/protobuf/proto",
     "github.com/golang/protobuf/ptypes/empty",
     "github.com/hashicorp/consul/api",
+    "github.com/honeycombio/libhoney-go",
     "github.com/kelseyhightower/envconfig",
     "github.com/lightstep/lightstep-tracer-go",
     "github.com/opentracing/opentracing-go",
